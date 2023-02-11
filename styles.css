@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Nunito:wght@300&display=swap");
+
+body {
+  /*font-family: "Roboto Mono", monospace;*/
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/id/878578804/pt/foto/golden-dollar-sign-on-black-background-3d-rendering.jpg?s=170667a&w=0&k=20&c=8L0oNqqx_GMkF1gr3JYeTBBP2EL-fYaS7bNsC7V2KEg=");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #cccccc;
+  margin: 0 0 5px;
+  font-size: 70px;
+  font-family: "Dongle", sans-serif;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: black;
+  background-position: center;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 70px;
+}
+
+.inputBotao{
+  display: flex;
+ flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.converte { 
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+    color: #ff0000;
+    text-align: center;
+    font-size: 20px;
+    /*padding: 20px;*/
+    width: 100px;
+    cursor: pointer;
+   /* margin: 5px;*/
+ }
